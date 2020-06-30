@@ -11,11 +11,13 @@ Live **Site Demo** ~ [Bucket List with Hooks](http://buckethooks.ryanhunter.ca/)
 - Run the command below from the command line / terminal / command prompt.
 - git clone https://github.com/systemsvanguard/bucketlistwithhooks.git  
 - cd bucketlistwithhooks
-- ensure your have Node & NPM pre-installed. Run commands 'node --version && npm -v'.
+- ensure your have Node & NPM pre-installed. 
+- Run commands 'node --version && npm -v'.
 - npm install.  (This ensures all dependencies are installed).
 - npm start
 - Runs on port 3003 via .env variable --> http://localhost:3003/ 
-- Please rename '.env4Display' to '.env', and follow the instructions within to get your own free Google Maps API.  Change the web port as needed.
+- Please rename '.env4Display' to '.env', and follow the instructions within to get your own free Google Maps API.  
+- Change the web port as needed.
 
 
 ## Features
@@ -43,7 +45,7 @@ This project is licensed under the terms of the **MIT** license.
 
 ![Bucket List with Hooks App 2](http://ryanhunter.ca/images/portfolio/bucket_list_app2.png)
 
-![Bucket List with Hooks App 3](http://ryanhunter.ca/images/portfolio/bucket_list_app2.png)
+![Bucket List with Hooks App 3](http://ryanhunter.ca/images/portfolio/bucket_list_app3.png)
 
 ![Bucket List with Hooks App 4](http://ryanhunter.ca/images/portfolio/bucket_list_app4.png)
 
