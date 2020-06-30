@@ -1,0 +1,64 @@
+{
+  "name": "bucketlistwithhooks",
+  "version": "1.4.2",
+  "private": false,
+  "description": "A React.js based demo and portfolio web app displaying a bucket list / wish list in a non-persistent CRUD (Create, Read, Update, & Delete) format.  Built with React.js, RESTful API, Hooks, React Router v 4, Bulma CSS framework, Google maps API, HTML 5, FontAwesome 5 icons, Google Fonts, JavaScript, CSS3, and a smattering of other fancy acronymns and buzz word technologies.  You get the idea!  Have fun.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/systemsvanguard/bucketlistwithhooks.git"
+  },
+  "keywords": [
+    "React.js",
+    "React Router 4",
+    "React Hooks",
+    "RESTful API - non-persistent",
+    "Axios",
+    "Bulma CSS framework",
+    "Google Maps API",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Sweet Alert 2 JS alert library",
+    "FontAwesome"
+  ],
+  "author": "Ryan Hunter | GitHub handle: SystemsVanguard | Web: www.ryanhunter.org | Location: Toronto ON Canada | Email: Ryan@ryanHunter.org ",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "bulma": "^0.9.0",
+    "dotenv": "^8.2.0",
+    "google-maps-react": "^2.0.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.1",
+    "sweetalert2": "^9.15.2",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

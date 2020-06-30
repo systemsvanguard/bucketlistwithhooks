@@ -1,0 +1,134 @@
+/* Styling for Bucket List with Hooks demo app */
+
+* {
+  boxSizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: "Mukta Malar", Helvetica, "Segoe UI", Arial, sans-serif;
+  line-height: 1.4;
+  font-size: 1.4em; 
+  background-color: #fcfcfc;
+  color: #00008b;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: justify;
+}
+
+a {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+.img_responsive  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* CSS for footer navigation bar */
+#ul-footernav {
+  list-style: none;
+  overflow:hidden;
+  background:#eef3fc;
+  margin:0;
+  padding:0;
+}
+#ul-footernav li a {
+  text-align:center;
+  font-weight: bold;
+  color:#2160c4;
+  padding:10px;
+  width:95px;
+}
+
+#ul-footernav li {
+  float:left;
+}
+
+#ul-footernav li:hover {
+  background:#2160c4;
+  color: #ff3860;
+}
+#ul-footernav li:hover a {
+  color: #ffffff;
+}
+#ul-footernav  a {
+  display:block;
+}
+
+#p-navfooter {
+  text-align: center
+}
+
+.footernav_outer {
+  text-align: center;
+}
+
+.footernav_inner {
+  display: inline-block;
+}
+
+/* Styling specific to Bucket List */
+.appContainer {
+  max-width: 70%;
+  margin: 0 auto;
+  border: 1px solid #00008b;
+}
+.listItem {
+  list-style-type: none;
+  padding: 8px 12px;
+  border-top: 1px solid #00008b;
+}
+.listItem input {
+  margin-right: 12px;
+}
+.btnStyle {
+  background: #46008b;
+  color: #ffffff;
+  border: 1px solid #46008b;
+  padding: 3px 7px;
+  border-radius: 50%;
+  cursor: pointer;
+  float: right;
+  outline: none;
+}
+.buttonStyle {
+  float: right;
+}
+
+.formContainer {
+  display: flex;
+  width: 100%;
+}
+.inputText {
+  flex: 8;
+  font-size: 14px;
+  padding: 6px 15px;
+  background: rgba(70, 0, 139, 0.65);
+  border: none;
+  color: #ffffff;
+  outline: none;
+  font-weight: 400;
+  width: 80%;
+}
+.inputText::placeholder {
+  color: #ffffff;
+  opacity: 0.8;
+}
+.inputSubmit {
+  flex: 2;
+  border: none;
+  background: #46008b;
+  color: #ffffff;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+  width: 20%;
+  outline: none;
+}
