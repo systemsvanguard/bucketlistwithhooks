@@ -15,5 +15,5 @@ const ContactDetails = () => {
 	</div>
   )
 }
-
-export default ContactDetails
+ 
+export default ContactDetails 
